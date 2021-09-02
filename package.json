@@ -1,0 +1,23 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "AutomationCypressPOC",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "QA"
+  ],
+  "author": "Pedro H.L.G E Silva",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.3.1",
+    "cypress-xpath": "^1.6.2"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^2.2.1"
+  }
+}
